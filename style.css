@@ -1,0 +1,37 @@
+body {
+    background-color:#a6a9b5;
+}
+
+h1 {
+    font-family: Helvetica, sans-serif;
+}
+
+#paragrafo1 {
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#paragrafo2, #paragrafo3 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.classe0 {
+    font-size: 50px;
+}
+
+.classe1 {
+    font-size: 40px;
+}
+
+.classe2 {
+    font-size: 30px;
+}
+
+.classe3 {
+
+    font-size: 20px;
+}
+
+.classe4 {
+    font-size: 10px;
+}
