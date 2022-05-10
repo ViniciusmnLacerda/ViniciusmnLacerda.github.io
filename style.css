@@ -1,9 +1,12 @@
 body {
-    background-color:#a6a9b5;
+    background-color:#FDF0EC;
 }
 
 h1 {
     font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 
 #paragrafo1 {
@@ -15,23 +18,40 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.classe0 {
-    font-size: 50px;
+#foto {
+    border-radius: 50%;
+}
+.boxpai {
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: left;
 }
 
-.classe1 {
-    font-size: 40px;
+.boxfilho1 {
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    }
+
+.boxfilho2 {
+    /* border: 1px solid red; */
+    width: 300px;
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2%;
+    width: 450px;
+    font-size: 25px;
 }
 
-.classe2 {
-    font-size: 30px;
+.legenda-foto {
+    /* border: 1px solid green; */
+    width: 4500px;
+    margin-left: 5%;
 }
 
-.classe3 {
-
-    font-size: 20px;
-}
-
-.classe4 {
-    font-size: 10px;
+.indice {
+    /* border: 1px solid yellow; */
+    width: 550px;
+    text-align: center;
+    margin: auto;
 }
