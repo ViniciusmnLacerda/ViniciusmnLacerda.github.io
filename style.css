@@ -48,9 +48,9 @@ html {
     font-size: 50px;
 }
 
-.title-box2 a:nth-child(-n+4):hover {
+.title-box2 a:nth-child(-n+3):hover {
     background-color: #DFE0E1;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 .title-box2 a:nth-child(-n+4){
     font-size: 20px;
@@ -132,3 +132,4 @@ html {
 .email {
     text-align: center;
 }
+
