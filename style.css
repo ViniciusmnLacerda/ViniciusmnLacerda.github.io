@@ -1,56 +1,19 @@
 body {
-    background-color: #F9E2DC;  
+    background-color: F3F5F6;
 }
 
-#paragrafo1 {
-    font-family: Helvetica, sans-serif;
-    font-style: italic;
+html {
+    scroll-behavior: smooth;
 }
 
-#paragrafo2, #paragrafo3 {
-    font-family: 'Times New Roman', Times, serif;
+.pag1 {
+    height: 100%;
+    padding-bottom: 10%;
 }
 
-#foto {
-    border-radius: 50%;
-    width: 100%;
-}
-.boxpai {
-    /* border: 1px solid green; */
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.boxfilho1 {
-    /* border: 1px solid black; */
-    margin-left: 5%;
-    width: 30%;
-    }
-
-.boxfilho2 {
-    /* border: 1px solid red;  */
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    font-size: 25px;
-}
-
-.indice-box2 {
-    /* border: 1px solid yellow; */
-    width: 100%;
-    text-align: right;
-    margin: auto;
-}
-
-.indice-box2 a:nth-child(-n+4):hover {
-    background-color: #DFE0E1;
-}
-
-.table {
-    /* border: 1px solid black; */
-    width: 100%;
-    font-size: 25px;
+.title-flexbox{
+    display: flex;    
+    height: 1%;
 }
 
 .title-box1 {
@@ -59,10 +22,93 @@ body {
     font-family: Helvetica, sans-serif;
     text-align: left;
     margin: auto;
+    height: 1%;
 }
 
-.title-flexbox{
+
+.box-author {
+    margin: auto;
+}
+
+.title-box2{
+    width: 100%;
+    text-align: right;
+    margin: auto;
+    height: 1%;
+}
+
+#subtitle{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#author {
+    font-size: 50px;
+}
+
+.title-box2 a:nth-child(-n+4):hover {
+    background-color: #DFE0E1;
+    transition: 0.4s;
+}
+.title-box2 a:nth-child(-n+4){
+    font-size: 20px;
+}
+
+
+
+.presetation-flexbox {
     border-top: 1px solid black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 10%;
+}
+
+.presetation-box1 {
+    margin-left: 5%;
+    width: 30%;
+    margin: auto;
+}
+    
+.presetation-box2 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 25px;
+}
+    
+#photo-presentation {
+        border-radius: 50%;
+        width: 100%;
+}
+.paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    text-align: justify;
+}
+
+
+.pag2 {
     border-bottom: 1px solid black;
-    display: flex;    
+    border-top: 1px solid black;
+    height: 100%;
+    padding-bottom: 28%;
+}
+
+.skills-box2 {
+    width: 50;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#title-of-skills {
+    text-align: center;
+    font-size: 50px;
+}
+
+.table {
+    border: 1px solid black;
+    width: 100%;
+    font-size: 25px;
 }
