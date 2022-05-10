@@ -1,12 +1,5 @@
 body {
-    background-color:#FDF0EC;
-}
-
-h1 {
-    font-family: Helvetica, sans-serif;
-    text-align: center;
-    margin-top: 0%;
-    margin-bottom: 0%;
+    background-color: #F9E2DC;  
 }
 
 #paragrafo1 {
@@ -20,38 +13,56 @@ h1 {
 
 #foto {
     border-radius: 50%;
+    width: 100%;
 }
 .boxpai {
     /* border: 1px solid green; */
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    width: 100%;
 }
 
 .boxfilho1 {
     /* border: 1px solid black; */
     margin-left: 5%;
+    width: 30%;
     }
 
 .boxfilho2 {
-    /* border: 1px solid red; */
-    width: 300px;
-    text-align: justify;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 2%;
-    width: 450px;
+    /* border: 1px solid red;  */
+    text-align: center;
+    margin: auto;
+    width: 50%;
     font-size: 25px;
 }
 
-.legenda-foto {
-    /* border: 1px solid green; */
-    width: 4500px;
-    margin-left: 5%;
+.indice-box2 {
+    /* border: 1px solid yellow; */
+    width: 100%;
+    text-align: right;
+    margin: auto;
 }
 
-.indice {
-    /* border: 1px solid yellow; */
-    width: 550px;
+.indice-box2 a:nth-child(-n+4):hover {
+    background-color: #DFE0E1;
+}
+
+.table {
+    /* border: 1px solid black; */
+    width: 100%;
+    font-size: 25px;
+}
+
+.title-box1 {
+    width: 100%;
     text-align: center;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
     margin: auto;
+}
+
+.title-flexbox{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;    
 }
