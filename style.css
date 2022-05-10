@@ -13,31 +13,31 @@ body {
 
 #foto {
     border-radius: 50%;
-    width: 100%;
+    width: 50%;
 }
 .boxpai {
-    /* border: 1px solid green; */
+    border: 1px solid green;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100%
 }
 
 .boxfilho1 {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     margin-left: 5%;
-    width: 30%;
+    width: 100%
     }
 
 .boxfilho2 {
-    /* border: 1px solid red;  */
+    border: 1px solid red; 
     text-align: center;
     margin: auto;
-    width: 50%;
+    width: 100%
     font-size: 25px;
 }
 
 .indice-box2 {
-    /* border: 1px solid yellow; */
+    border: 1px solid yellow;
     width: 100%;
     text-align: right;
     margin: auto;
@@ -48,7 +48,7 @@ body {
 }
 
 .table {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     width: 100%;
     font-size: 25px;
 }
@@ -59,10 +59,23 @@ body {
     font-family: Helvetica, sans-serif;
     text-align: left;
     margin: auto;
+    border: 1px solid black;
 }
 
 .title-flexbox{
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    border: 1px solid black;
     display: flex;    
+    width: 100%
+}
+
+.subtitle {
+    border: 1px solid black;
+}
+
+.box-grande {
+    margin: auto;
+    width: 100%;
+    
 }
