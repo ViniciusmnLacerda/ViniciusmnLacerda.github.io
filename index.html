@@ -6,53 +6,59 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="box-grande">
+<div class="big-box">
 
-<div class="title-flexbox">   
+ <section class="pag1">  <!--Primeira página-->
+    <div class="title-flexbox"> <!--Flexbox do título   -->
     <div class="title-box1"> 
-            <div class="subtitle">
-                <h1>Vinícius Lacerda M. do Nascimento</h1>
+        
+            <div class="box-author">
+                <h1 id="author">Vinícius Lacerda M. do Nascimento</h1>
             </div>
-            <div>
-                <p id="paragrafo1">Estudante de Desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.</p>
+            <div class="box-subtitle"> 
+                <p id="subtitle">Estudante de Desenvolvimento Web Full-Stack na <a href="https://www.betrybe.com/" target="_blank">Trybe</a>.</p>
             </div>
-        </div>
-    <div class="indice-box2">
-        <a class="indice-box2-1" href="#indice1">Habilidade que me orgulho</a>
-        <a class="indice-box2-2" href="#indice2">Algumas outras habilidades</a>
+       
+    </div>
+    <div class="title-box2">
+        <a class="indice-box2-1" href="#pag2">Minhas Habilidades</a>
         <a class="indice-box2-3" href="#indice3">Redes sociais</a>
         <a class="indice-box2-4" href="#indice4">Contato</a>
     </div>
-</div>
-<div>   
+    </div>
 
-        <div class="boxpai">
-            <div class="boxfilho1"><img id ="foto" src="images/fotoperfil.jpg" atl="Foto do Vinícius Lacerda" width="350px">
-            </div>
-            <div class="boxfilho2"><p id="paragrafo2">Eu nasci em <strong>Brasília - DF</strong>, tenho 28 anos e sou formado em Física, pela <a href="https://www.unb.br/" target="_blank">Universidade de Brasília</a>.<br>
+    <div class="presetation-flexbox"> <!-- Flexbox da apresentação   -->
+        <div class="presetation-box1">
+            <img id ="photo-presentation" src="images/fotoperfil.jpg" atl="Foto do Vinícius Lacerda" width="350px">            
+        </div>    
+        <div class="presetation-box2">
+            <p class="paragraph">Eu nasci em <strong>Brasília - DF</strong>, tenho 28 anos e sou formado em Física, pela <a href="https://www.unb.br/" target="_blank">Universidade de Brasília</a>.<br>
            Trabalhei como professor por oito anos e atualmente estou em transição de carreira, vou me tornar <strong> Desenvolvedor Web</strong>.</p>    
-            </div>
         </div>
-       
+    </div>
+</section>
+
+
+<section class="pag2" id="pag2">  <!--Segunda página-->
+<div class="skills-flexbox">   <!--Fexlbox das Minhas Habilidades-->
+    <div class="skills-box1">
+        <h2 id="title-of-skills">Minhas Habilidades</h2>
+    </div>
+    <div class="skills-box2">
+        <p class="paragraph">Durante minha graduação aprimorei minhas habilidades com organização e lógica matemática, que são essencais para a carreira de Desenvolvedor Web. Atuando como professor aperfeiçoei a comunicação, aprendi a lidar com feedbacks e sempre estive em constante trabalhos e desafios em grupo. Com a formação da Trybe irei desenvolver as habilidades necessárias para trabalhar com front-end, back-end, ciência da computação e engenharia de software, além de aprimorar metodologias ágeis e habilidades comportamentais.</p>
+    </div>
+
+
 
 </div>
+</section>
 
-<div class="table">  
-<ul class="classe0" id="indice1"> <strong>Habilidades que me orgulho</strong>  
-    <li class="classe1" >Colaboração</li>
-    <li class="classe2" >Organização</li>
-    <li class="classe3" >Comunicação</li>
-    <li class="classe4" >Raciocínio Lógico e Matemática</li>
-</ul>
-</div>
 
-<div class="table">  
-<ul class="classe0" id="indice2"> <strong>Algumas outras habilidades</strong>
-    <li class="classe1" >Lido bem com feedbacks</li>
-    <li class="classe2" >Pedagogia</li>
-    <li class="classe3" >Extrovertido</li> 
-</ul>
-</div>
+
+
+
+
+
 
 <div class="table"> 
 <ul id="indice3"><strong>Redes Sociais</strong>
